@@ -3,8 +3,8 @@ import React from "react";
 
 const Skills = () => {
   return (
-    <div className="w-full lg:h-screen p-2 ">
-      <div className="max-w-[1240px] mx-auto flex flex-col justify-center items-center border ">
+    <div className="w-full h-screen p-2 ">
+      <div className="max-w-[1240px] mx-auto flex flex-col justify-center items-center  ">
         <p>Skills</p>
         <h1 className="py-4">What I can do</h1>
       </div>
@@ -97,6 +97,21 @@ const Skills = () => {
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3> TAILWINDCSS </h3>
+              </div>
+            </div>
+          </div>
+          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in transition">
+            <div className="grid grid-cols-2 gap-4 justity-center items-center ">
+              <div className="m-auto ">
+                <Image
+                  src="/../public/assets/skills/node.png"
+                  alt=""
+                  width={64}
+                  height={64}
+                />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3> NODEJS </h3>
               </div>
             </div>
           </div>
