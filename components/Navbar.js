@@ -29,7 +29,7 @@ const Navbar = () => {
         <div>
           <ul className="hidden md:flex space-x-5  ">
             <Link href="/">
-              <li className="text-sm xl:text-2xl capitalize rouned-full hover:translate-y-[-20%] duration-500 hover:border-b hover:border-red-300 cursor-pointer p-2">
+              <li className="text-sm xl:text-2xl capitalize rouned-full hover:translate-y-[-20%] duration-500 hover:border-b hover:border-red-300 cursor-pointer p-2 ">
                 {" "}
                 Home{" "}
               </li>
@@ -47,7 +47,7 @@ const Navbar = () => {
               </li>
             </Link>
             <Link href="/">
-              <li className="text-sm  xl:text-2xl  capitalize hover:translate-y-[-20%] duration-500 hover:border-b hover:border-red-300 cursor-pointer p-2">
+              <li className="text-sm xl:text-2xl capitalize hover:translate-y-[-20%] duration-500 hover:border-b hover:border-red-300 cursor-pointer p-2">
                 {" "}
                 Portfolio{" "}
               </li>
@@ -88,7 +88,7 @@ const Navbar = () => {
 
             <div
               onClick={handleToggle}
-              className="shadow-gray-500 shadow-lg rounded-full "
+              className="shadow-gray-500 shadow-lg rounded-full  "
             >
               <AiOutlineCloseCircle size={40} />
             </div>

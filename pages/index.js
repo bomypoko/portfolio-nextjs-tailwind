@@ -2,6 +2,8 @@ import Navbar from '../components/Navbar'
 import React from 'react'
 import Head from 'next/head'
 import Hero from '../components/Hero'
+import About from '../components/About'
+
 
 const index = () => {
   return (
@@ -13,8 +15,10 @@ const index = () => {
       </Head>
 
       <Navbar/>
-
       <Hero/>
+      <About/>
+
+
     </div>
     
   )
