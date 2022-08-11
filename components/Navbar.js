@@ -17,13 +17,13 @@ const Navbar = () => {
   };
 
   return (
-    <div className=" fixed w-full h-30 shadow-xl z-[100] ">
+    <div className=" fixed w-full h-20 shadow-xl z-[100] ">
       <div className="flex w-full h-full justify-between items-center px-2 2xl:16">
         <Image
           src="/../public/assets/bomLogo.png"
           alt=""
-          width={150}
-          height={150}
+          width={80}
+          height={80}
         />
 
         <div>

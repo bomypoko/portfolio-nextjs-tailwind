@@ -3,10 +3,10 @@ import React from "react";
 
 const Skills = () => {
   return (
-    <div className="w-full h-screen p-2 ">
+    <div className="w-full h-screen p-2 py-32 ">
       <div className="max-w-[1240px] mx-auto flex flex-col justify-center items-center  ">
-        <p>Skills</p>
-        <h1 className="py-4">What I can do</h1>
+        <p className="py-6">Skills</p>
+        <h1>What I can do</h1>
       </div>
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 ">
 
