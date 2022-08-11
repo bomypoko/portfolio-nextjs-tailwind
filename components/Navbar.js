@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import React, { useState } from "react";
+import React, { useState , useEffect } from "react";
 import { GiHamburgerMenu } from "react-icons/Gi";
 import {
   AiOutlineCloseCircle,
@@ -11,13 +11,33 @@ import {
 import { FaLine } from "react-icons/Fa";
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
+  const [shadow, setShadow] = useState(false);
+
+
+  useEffect(() => {
+    const handleShadow = () => {
+      if (window.scrollY >= 90) {
+        setShadow(true)
+      }else {
+        setShadow(false)
+      }
+    } 
+    window.addEventListener('scroll' , handleShadow )
+  },[])
+
+
+
 
   const handleToggle = () => {
     setToggle(!toggle);
   };
 
+  
+
+
+
   return (
-    <div className=" fixed w-full h-20 shadow-xl z-[100] ">
+    <div className={shadow ? "fixed w-full h-20 shadow-xl z-[100]" : " fixed w-full h-20  z-[100] "}>
       <div className="flex w-full h-full justify-between items-center px-2 2xl:16">
         <Image
           src="/../public/assets/bomLogo.png"

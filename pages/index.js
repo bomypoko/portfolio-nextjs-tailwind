@@ -5,6 +5,7 @@ import Hero from '../components/Hero'
 import About from '../components/About'
 import Skills from '../components/Skills'
 import Projects from '../components/Projects'
+import Contact from '../components/Contact'
 
 
 
@@ -14,7 +15,7 @@ const index = () => {
 
       <Head>
         <title>
-          Ratchasri |Jr.Front-End Developer </title>
+          Ratchasri | Jr.Front-End Developer </title>
       </Head>
 
       <Navbar/>
@@ -22,6 +23,7 @@ const index = () => {
       <About/>
       <Skills/>
       <Projects/>
+      <Contact />
       
 
 
