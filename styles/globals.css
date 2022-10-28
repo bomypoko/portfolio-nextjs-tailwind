@@ -3,6 +3,11 @@
 @tailwind utilities;
 
 
+html {
+  scroll-behavior: smooth;
+}
+
+
 @layer base {
   body{
     @apply bg-[#28282B] text-[#ffff] tracking-wider

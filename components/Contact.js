@@ -1,16 +1,17 @@
+import Link from "next/link";
 import React from "react";
 
 import {
-  AiOutlineCloseCircle,
   AiOutlineMail,
   AiFillGithub,
-  AiFillFacebook,
+  AiFillPhone,
 } from "react-icons/Ai";
-import { FaLine, FaPray } from "react-icons/Fa";
+
 
 const Contact = () => {
+
   return (
-    <div className="w-full lg:h-screen ">
+    <div id='contact' className="w-full lg:h-screen ">
       <div className="max-w-[1240px] m-auto w-full px-2 py-16">
         <p className=" bg-gradient-to-r from-indigo-400 via-purple-500 to-pink-800 bg-clip-text text-transparent">
           Contact{" "}
@@ -38,22 +39,30 @@ const Contact = () => {
 
               <div>
                 <p> Connect wih me </p>
-                <div className="flex items-center justify-evenly py-4 ">
+                <div className="flex flex-col items-center justify-evenly py-4 ">
                   <div className="rounded-md shadow-xl shadow-gray-500 cursor-pointer hover:scale-125 duration-200">
                     <AiOutlineMail size={40} />
+        
                   </div>
+                  <h3>Orc_hero@hotmail.com</h3>
+
+                  
 
                   <div className="rounded-md shadow-xl shadow-gray-500 cursor-pointer hover:scale-125 duration-200">
-                    <FaLine size={40} />
+                    <AiFillPhone size={40} />
                   </div>
-
-                  <div className="rounded-md shadow-xl shadow-gray-500 cursor-pointer hover:scale-125 duration-200">
-                    <AiFillFacebook size={40} />
-                  </div>
+                  <h3>063-959-7914</h3>
 
                   <div className="rounded-full shadow-xl shadow-gray-500 cursor-pointer hover:scale-125 duration-200">
+                     <Link href="https://github.com/bomypoko" >
                     <AiFillGithub size={40} />
+                    </Link>
                   </div>
+                  <Link href="https://github.com/bomypoko"> Click Here</Link>
+                  
+                  
+                  
+                  
                 </div>
               </div>
             </div>
@@ -91,7 +100,7 @@ const Contact = () => {
                       <lable className="uppercase text-sm py-2"> Subject </lable>
                       <input
                       className="border-2 rounded-lg p-3 flex border-gray-300 text-black"
-                      type="Email"
+                      type="text"
                     />
                   </div>
                   <div className="flex flex-col py-2 sm:col-span-2">
@@ -100,7 +109,7 @@ const Contact = () => {
                   </div>
                 </div>
 
-                    <button onClick={ () => alert('You have submited the form')} className=" hover:text-red-300 flex shadow-2xl bg-black rounded-xl justify-center items-center p-4 text-blue-400 mt-4   hover:scale-110 transition-all cursor-pointer"> Send Message </button>
+                    <button  className=" hover:text-red-300 flex shadow-2xl bg-black rounded-xl justify-center items-center p-4 text-blue-400 mt-4   hover:scale-110 transition-all cursor-pointer"> Send Message </button>
               </form>
               
             </div>

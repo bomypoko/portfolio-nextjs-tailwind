@@ -9,7 +9,7 @@ import { FaLine } from "react-icons/Fa";
 
 const Hero = () => {
   return (
-    <div className=" w-full h-screen text-center  ">
+    <div id='hero' className=" w-full h-screen text-center  ">
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center ">
         <div>
           <p className="uppercase text-sm tracking-widest border-b-2 shadow-b py-5 text-gray-400 mt-32 md:mt-2 ">

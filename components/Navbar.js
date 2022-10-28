@@ -27,14 +27,9 @@ const Navbar = () => {
 
 
 
-
   const handleToggle = () => {
     setToggle(!toggle);
   };
-
-  
-
-
 
   return (
     <div className={shadow ? "fixed w-full h-20 shadow-xl z-[100]" : " fixed w-full h-20  z-[100] "}>
@@ -54,25 +49,25 @@ const Navbar = () => {
                 Home{" "}
               </li>
             </Link>
-            <Link href="/">
+            <Link href="/#about">
               <li className=" text-sm xl:text-2xl  capitalize hover:translate-y-[-20%] duration-500 hover:border-b hover:border-red-300 cursor-pointer p-2">
                 {" "}
                 About Me{" "}
               </li>
             </Link>
-            <Link href="/">
+            <Link href="/#skills">
               <li className="text-sm xl:text-2xl capitalize hover:translate-y-[-20%] duration-500 hover:border-b hover:border-red-300 cursor-pointer p-2">
                 {" "}
                 Expericense{" "}
               </li>
             </Link>
-            <Link href="/">
+            <Link href="/#projects">
               <li className="text-sm xl:text-2xl capitalize hover:translate-y-[-20%] duration-500 hover:border-b hover:border-red-300 cursor-pointer p-2">
                 {" "}
                 Portfolio{" "}
               </li>
             </Link>
-            <Link href="/">
+            <Link href="/#contact">
               <li className="text-sm  xl:text-2xl capitalize hover:translate-y-[-20%] duration-500 hover:border-b hover:border-red-300 cursor-pointer p-2">
                 {" "}
                 Contact{" "}

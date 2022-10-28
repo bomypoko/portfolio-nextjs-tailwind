@@ -11,7 +11,8 @@ import ProjectItem from "./ProjectItem";
 
 const Projects = () => {
   return (
-    <div className=" ">
+    <div id='projects' className=" px-16">
+
       <div className="max-w-[1240px] mx-auto px-2 py-16 ">
         <p className=" text-center text-2xl bg-gradient-to-r from-indigo-400 via-purple-500 to-pink-500 bg-clip-text text-transparent">Project</p>
         <h2 className=" text-center py-4">What I have build</h2>

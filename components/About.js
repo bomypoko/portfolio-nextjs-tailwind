@@ -1,8 +1,8 @@
 import React from "react";
 
 const About = () => {
-  return (
-    <div className=" w-full md:screen py-12 flex items-center p-2  ">
+  return  (
+    <div id='about' className=" w-full h-full py-16 flex items-center p-2  ">
       <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-2 ">
         <div className="md:col-span-2 space-y-4">
           <p className=" text-1xl bg-gradient-to-r from-indigo-400 via-purple-500 to-pink-500 bg-clip-text text-transparent">
@@ -30,7 +30,7 @@ const About = () => {
         <div className=" w-full h-auto m-auto shadow-xl shadow-gray-500 flex items-center justify-center  ">
           <img
             src=" https://images.unsplash.com/photo-1580927752452-89d86da3fa0a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
-            alt=""
+            alt="picture"
           />
         </div>
       </div>
