@@ -100,8 +100,9 @@ const Contact = () => {
                   </div>
                 </div>
 
-                    <button className=" hover:text-red-300 flex shadow-2xl bg-black rounded-xl justify-center items-center p-4 text-blue-400 mt-4   hover:scale-110 transition-all cursor-pointer"> Send Message </button>
+                    <button onClick={ () => alert('You have submited the form')} className=" hover:text-red-300 flex shadow-2xl bg-black rounded-xl justify-center items-center p-4 text-blue-400 mt-4   hover:scale-110 transition-all cursor-pointer"> Send Message </button>
               </form>
+              
             </div>
           </div>
         </div>
